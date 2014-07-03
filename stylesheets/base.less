@@ -1,0 +1,127 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: rgba(58, 58, 0, 0.48);
+}
+
+.text {
+  color: #EEEEEE;
+  // background-color: #000000;
+}
+
+.source {
+  background-color: #000000;
+}
+
+.comment {
+  color: #A28075;
+}
+
+.comment.block {
+  color: #A28075;
+  background-color: #121212;
+}
+
+.constant {
+  color: #367C1B;
+}
+
+.keyword {
+  color: #D01D33;
+}
+
+.variable {
+  color: #AAAAAA;
+}
+
+.storage {
+  color: #3185B9;
+}
+
+.entity.name.function {
+  color: #AAAAAA;
+}
+
+.variable.parameter {
+  color: #C3C3C3;
+}
+
+.string {
+  color: #60F400;
+}
+
+.string.regexp {
+  color: #D8E600;
+}
+
+.entity.name.type {
+  text-decoration: underline;
+}
+
+.entity.other.inherited-class {
+  text-decoration: underline;
+}
+
+.meta.tag, .meta.tag .entity {
+  color: #AAAAAA;
+}
+
+.entity.other.attribute-name {
+  color: #367C1B;
+}
+
+.support.function {
+  color: #CBC3B1;
+}
+
+.support.class {
+  color: #DF864D;
+}
