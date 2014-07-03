@@ -2,7 +2,7 @@
   "name": "ruby-robot-theme",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "This is port of RubyRobot Theme.",
   "repository": "https://github.com/saki007ster/ruby-robot-theme",
   "license": "MIT",
   "engines": {

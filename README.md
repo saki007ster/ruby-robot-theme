@@ -1,3 +1,3 @@
 # ruby-robot-theme theme
 
-A short description of your theme.
+This is port of RubyRobot Theme.
